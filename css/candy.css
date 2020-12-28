@@ -1,0 +1,143 @@
+body{
+      background-color: #d9a73b;
+      background: linear-gradient(#e7e5df 0%, #d9a73b 100%);
+      background: -webkit-linear-gradient(#e7e5df 0%, #d9a73b 100%);
+      background: -o-linear-gradient(#e7e5df 0%, #d9a73b 100%);
+      background: -moz-linear-gradient(#e7e5df 0%, #d9a73b 100%);
+      margin:5% !important;
+
+}
+h1{
+  font-family: "papyrus", "cursive", "fantasy";
+  text-align: center;
+  margin: 2% !important;
+  font-weight: bold !important;
+  font-size:  500% !important;
+}
+
+.hamburger{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+/*navigation bar*/
+
+
+@media screen and (min-width: 640px){
+  nav{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+
+  #horizontal{
+    display: block;
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+  }
+
+  #hamburger{
+    display: none;
+  }
+
+  .menu{
+    max-width: 15%;
+    -webkit-transform: scaleX(1) scaleY(1) scaleZ(1) skewX(10deg);
+    -o-transform: scaleX(1) scaleY(1) scaleZ(1) skewX(10deg);
+    -moz-transform: scaleX(1) scaleY(1) scaleZ(1) skewX(10deg);
+    transform-origin: 	50% 50%;
+  }
+
+/*offers div*/
+.container{
+  margin: 3%;
+  align-items: center;
+  position: relative;
+}
+
+.image{
+  display: inline-block;
+  width:40%;
+  maring:3%;
+  float: left;
+}
+p{
+  margin-left: 3%;
+  margin-top: 8% !important;
+  display: inline-block;
+  float: left;
+  font-size: 2vw;
+  width: 55%;
+  font-family: 'Lucida Handwriting', "Coronel", "Chaucer";
+}
+
+.sec{
+  float: left;
+  margin: 3%;
+  text-align: center;
+}
+
+.button{
+  width: 15%;
+  height: 10%;
+  background-color: #fc9803;
+  font-weight: bold;
+  text-align: center;
+  }
+}
+
+@media (max-width:639px){
+  .menu{
+    display: none !important;
+    height: 100%;
+  }
+
+  .link:last-child{
+    display: block;
+    margin-bottom: 3%;
+    margin-left: 3%;
+  }
+
+  #horizontal{
+    display: none;
+  }
+
+
+  #hamburger{
+    width:10%;
+  }
+
+  nav{
+    background-color: #000000;
+  }
+
+  h1{
+    font-size: 300% !important;
+  }
+
+  .image{
+    display: block;
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .sec{
+    text-align: center;
+  }
+
+  p{
+    margin-top: 3% !important;
+  }
+
+  .button{
+    margin-bottom: 3%;
+    background-color: #fc9803;
+  }
+
+
+}
